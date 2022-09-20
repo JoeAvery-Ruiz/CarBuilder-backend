@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+var port = normalizePort(process.env.PORT || '8000');
 const port = 8000
 const morgan = require('morgan')
 const cors = require('cors')
